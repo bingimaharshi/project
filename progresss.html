@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body{
+    background-color: bisque;
+  }
+   .flex{
+    color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:300px;
+    width: 100vw;
+   }
+   .progressbar{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 160px;
+       width: 160px;
+       background-color: black;
+       border: 8px solid rgb(43, 0, 255);
+       border-radius: 50%;
+       animation-name: identifier;
+       animation-timing-function: 2s;
+       animation-iteration-count: 1;
+       animation-direction: normal;
+       transform: border;
+       font-weight: bold;
+   }
+   .progressfil{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 160px;
+       width: 160px;
+       background-color: black;
+       border: 10px solid rgb(246, 255, 0);
+       border-radius: 50%;
+       animation-name: identifier;
+       animation-timing-function: 2s;
+       animation-iteration-count: 1;
+       animation-direction: normal;
+       transform: border;
+       font-weight: bold;
+   }
+   .progressfils{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 160px;
+       width: 160px;
+       background-color: black;
+       border: 10px solid rgb(255, 0, 208);
+       border-radius: 50%;
+       animation-name: identifier;
+       animation-timing-function: 2s;
+       animation-iteration-count: 1;
+       animation-direction: normal;
+       transform: border;
+       font-weight: bold;
+   }
+   .progressfilss{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 160px;
+       width: 160px;
+       background-color: black;
+       border: 10px solid red;
+       border-radius: 50%;
+       animation-name: identifier;
+       animation-duration: 5s;
+       animation-timing-function: 2s;
+       animation-iteration-count: infinite;
+       animation-direction: normal;
+       font-weight: bold;
+       /*transform: border;*/
+       
+   }
+   .services{
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       border: 2px solid red;
+       margin-top: -30px;
+       font-weight: bold;
+       color: rgb(255, 0, 255);
+       border: none;
+
+   }
+   .service{
+    display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       font-weight: bolder;
+       padding-left: 10px;
+       margin-bottom: -30px;
+       color: rgb(255, 0, 89);
+   }
+   /*.mm{
+    display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 160px;
+       width: 160px;
+       background-color: rgb(0, 0, 0);
+       border: 5px solid rgb(123, 255, 0);
+       position: relative;
+       border-radius: 50%;
+   }*/
+   @keyframes identifier {
+       0%{border-color: rgb(47, 0, 255) ;
+                }
+       20%{border-color: rgb(255, 255, 255);}
+   }
+   .id{
+         margin-left:550px;
+
+   }
+   .kl{
+    display: flex;
+    justify-content: space-around;
+   }
+   .h{
+     font-weight: bolder;
+   }
+   .l a{
+    text-align: center;
+    
+   }
+   .i{
+    margin-left: 850px;
+    padding-top: -94px;
+   }
+
+</style>
+<body>
+  <h1>Progress</h1>
+  <div class="service">
+    <div class="civil">
+      Civil Work
+</div>
+<div class="electric">
+     Electric Work
+</div>
+<div class="inter">
+      INTERIOR Work
+</div>
+<div class="paint">
+     Painter Work
+  </div>
+  </div>
+  <div class="flex">
+    <div class="progressbar">
+         50%
+      <div class="mm">
+
+      </div>
+    </div>
+  <div class="progressfil">
+           60%
+  </div>
+  <div class="progressfils">
+           10%
+  </div>
+  <div class="progressfilss">
+           0%
+  </div>
+  </div>
+  <div class="services">
+     <div class="civil">
+           50% work completed
+     </div>
+     <div class="electric">
+      60% work completed
+     </div>
+     <div class="inter">
+      10% work completed
+     </div>
+     <div class="paint">
+       0% work completed
+     </div>
+  </div>
+  <h1>Profressionals</h1>
+ <div class="id"> <img src="./logion icon.jpg" alt="" height="150px">
+  </div>
+    <div class="kl">  
+      <div class="oo"><p>Experience</p></div>
+     <div class="l"> <p>Rating</p></div> 
+   </div>
+   <div class="l"><a href="./pay.html">Payment</a></div>
+   <div class="i">
+    <img src="./rating.jpg" alt="" height="60px">
+   </div>
+  
+</body>
+</html>
